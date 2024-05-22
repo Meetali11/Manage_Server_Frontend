@@ -1,0 +1,58 @@
+.container-x1 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.table-responsive {
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+
+.table-title {
+    background-color: rgb(9, 95, 97);
+}
+
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col-sm-6 h2{
+    color: white;
+    padding-top: 2px;
+    padding-left: 40px;
+    font-family: cursive;
+}
+
+.row .col-sm-6 {
+    font-family: cursive;  
+    display: flex;
+}
+
+.smt .col-sm-6{
+   float: right;
+}
+
+.print {
+    padding-right: 20px;
+}
+
+.adds {
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 1230px) {
+    .row .col-sm-6 {
+      display: block;
+    }
+
+    .print {
+        padding-bottom: 10px;
+    }
+
+    .adds {
+        padding-bottom: 10px;
+    }
+}
+  
